@@ -1,0 +1,90 @@
+body{
+margin:0;
+font-family:Arial;
+background:#000814;
+color:white;
+}
+
+header{
+background:#000;
+padding:15px;
+display:flex;
+justify-content:space-between;
+align-items:center;
+}
+
+.logo{
+display:flex;
+align-items:center;
+gap:10px;
+}
+
+.logo img{
+width:60px;
+height:60px;
+border-radius:50%;
+}
+
+nav a{
+color:#00aaff;
+margin:10px;
+text-decoration:none;
+font-weight:bold;
+}
+
+.hero{
+text-align:center;
+padding:60px;
+background:linear-gradient(#001d3d,#000);
+}
+
+.btn{
+background:#0077ff;
+padding:12px 20px;
+display:inline-block;
+margin-top:20px;
+color:white;
+text-decoration:none;
+border-radius:6px;
+}
+
+.catalogo{
+display:flex;
+gap:20px;
+padding:20px;
+}
+
+.card{
+background:#001d3d;
+padding:20px;
+border-radius:8px;
+border:1px solid #0077ff;
+}
+
+.form{
+display:flex;
+flex-direction:column;
+width:300px;
+margin:40px auto;
+}
+
+input, textarea{
+margin:10px 0;
+padding:10px;
+background:#000;
+border:1px solid #0077ff;
+color:white;
+}
+
+button{
+background:#0077ff;
+color:white;
+padding:10px;
+border:none;
+}
+
+.conteudo{
+padding:40px;
+max-width:800px;
+margin:auto;
+}
