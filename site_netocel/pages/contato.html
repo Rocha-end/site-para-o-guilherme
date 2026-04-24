@@ -8,16 +8,30 @@
 </head>
 <body>
 
+
+
 <header><h1>Contato</h1></header>
 
 <section class="form">
-<h2>Fale conosco</h2>
-<p>WhatsApp: (62) 9875-2552</p>
-<input placeholder="Nome">
-<input placeholder="Email">
-<textarea placeholder="Mensagem"></textarea>
-<button>Enviar</button>
+  <h2>Fale conosco</h2>
+
+
+  <input id="nome" placeholder="Nome">
+  <input id="email" placeholder="Email">
+  <textarea id="mensagem" placeholder="Mensagem"></textarea>
+
+  <button onclick="enviar()">Enviar</button>
+
+  <p id="resposta"></p>
 </section>
 
+<script>
+function enviar() {
+  const nome = document.getElementById("nome").value;
+
+  document.getElementById("resposta").innerText =
+    "Mensagem enviada com sucesso, " + nome + "!";
+}
+</script>
 </body>
 </html>
